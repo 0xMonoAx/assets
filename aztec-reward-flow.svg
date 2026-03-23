@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 660" width="760" height="660">
+  <style>
+    text { font-family: 'Courier New', monospace; }
+    .title { font-size: 15px; font-weight: 700; }
+    .addr { font-size: 10px; fill: #888; }
+    .edge-text { font-size: 12px; font-weight: 600; fill: #444; }
+    .edge-sub { font-size: 10px; fill: #888; }
+    .arrow-line { fill: none; stroke: #444; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .arrow-head { fill: #444; }
+  </style>
+  <rect width="760" height="660" fill="#f8f6f0" rx="4"/>
+  <text x="380" y="30" text-anchor="middle" font-family="Courier New, monospace" font-size="20" font-weight="700" fill="#1a1a1a">Aztec Reward Flow - Contract Map</text>
+  <text x="380" y="48" text-anchor="middle" font-family="Courier New, monospace" font-size="12" fill="#666">Wonderland Provider 93</text>
+  <path class="arrow-line" d="M 320 120 C 322 138, 318 148, 320 165"/>
+  <polygon class="arrow-head" points="314,162 320,175 326,162"/>
+  <path class="arrow-line" d="M 320 235 C 318 253, 322 263, 320 280"/>
+  <polygon class="arrow-head" points="314,277 320,290 326,277"/>
+  <path class="arrow-line" d="M 220 360 C 170 385, 140 405, 130 440"/>
+  <polygon class="arrow-head" points="124,437 130,450 136,437"/>
+  <path class="arrow-line" d="M 420 360 C 480 385, 540 405, 580 440"/>
+  <polygon class="arrow-head" points="574,437 580,450 586,437"/>
+  <path class="arrow-line" d="M 130 510 C 128 528, 126 548, 125 565"/>
+  <polygon class="arrow-head" points="119,562 125,575 131,562"/>
+  <path class="arrow-line" d="M 240 620 C 290 622, 330 618, 380 620"/>
+  <polygon class="arrow-head" points="377,614 390,620 377,626"/>
+  <rect x="200" y="68" width="240" height="48" rx="8" fill="#e8f0fe" stroke="#4a86c8" stroke-width="2.5"/>
+  <text x="320" y="90" text-anchor="middle" class="title" fill="#2a5a8c">RewardDistributor</text>
+  <text x="320" y="106" text-anchor="middle" class="addr">0x3d6a...dfe0</text>
+  <rect x="335" y="125" width="130" height="36" rx="6" fill="#f8f6f0" stroke="#ccc" stroke-width="1.5"/>
+  <text x="400" y="141" text-anchor="middle" class="edge-text">AZTEC rewards</text>
+  <text x="400" y="155" text-anchor="middle" class="edge-sub">~11,200 / epoch</text>
+  <rect x="200" y="178" width="240" height="48" rx="8" fill="#e6f5e6" stroke="#4a9e4a" stroke-width="2.5"/>
+  <text x="320" y="200" text-anchor="middle" class="title" fill="#2a6e2a">Rollup (Ignition)</text>
+  <text x="320" y="216" text-anchor="middle" class="addr">0x603b...bCA12</text>
+  <rect x="340" y="240" width="115" height="36" rx="6" fill="#f8f6f0" stroke="#ccc" stroke-width="1.5"/>
+  <text x="398" y="256" text-anchor="middle" class="edge-text">per attester</text>
+  <text x="398" y="270" text-anchor="middle" class="edge-sub">by stake weight</text>
+  <rect x="175" y="295" width="270" height="48" rx="8" fill="#fef9e7" stroke="#c8a84a" stroke-width="2.5"/>
+  <text x="310" y="317" text-anchor="middle" class="title" fill="#8c7a2a">Coinbase Split Wallets</text>
+  <text x="310" y="333" text-anchor="middle" font-family="Courier New, monospace" font-size="10" fill="#8c7a2a">active sequencers</text>
+  <rect x="25" y="385" width="135" height="36" rx="6" fill="#f8f6f0" stroke="#ccc" stroke-width="1.5"/>
+  <text x="93" y="401" text-anchor="middle" class="edge-text">4.69%</text>
+  <text x="93" y="415" text-anchor="middle" class="edge-sub">provider commission</text>
+  <rect x="520" y="385" width="95" height="36" rx="6" fill="#f8f6f0" stroke="#ccc" stroke-width="1.5"/>
+  <text x="568" y="401" text-anchor="middle" class="edge-text">95.31%</text>
+  <text x="568" y="415" text-anchor="middle" class="edge-sub">user share</text>
+  <rect x="30" y="450" width="210" height="48" rx="8" fill="#f3e8fe" stroke="#8a4ac8" stroke-width="2.5"/>
+  <text x="135" y="472" text-anchor="middle" class="title" fill="#5a2a8c">SplitsWarehouse</text>
+  <text x="135" y="488" text-anchor="middle" class="addr">0x8fb6...1Fb8</text>
+  <rect x="510" y="450" width="220" height="48" rx="8" fill="#fde8e8" stroke="#c84a4a" stroke-width="2.5"/>
+  <text x="620" y="472" text-anchor="middle" class="title" fill="#8c2a2a">Recipient Users</text>
+  <text x="620" y="488" text-anchor="middle" font-family="Courier New, monospace" font-size="10" fill="#8c2a2a">Delegators / Users</text>
+  <rect x="140" y="520" width="80" height="24" rx="6" fill="#f8f6f0" stroke="#ccc" stroke-width="1.5"/>
+  <text x="180" y="537" text-anchor="middle" class="edge-text">withdraw</text>
+  <rect x="25" y="580" width="220" height="48" rx="8" fill="#e8f0fe" stroke="#4a86c8" stroke-width="2.5"/>
+  <text x="135" y="602" text-anchor="middle" class="title" fill="#2a5a8c">Provider Recipient</text>
+  <text x="135" y="618" text-anchor="middle" class="addr">0x8997...79C9</text>
+  <rect x="262" y="600" width="105" height="24" rx="6" fill="#f8f6f0" stroke="#ccc" stroke-width="1.5"/>
+  <text x="315" y="617" text-anchor="middle" class="edge-text">ops funding</text>
+  <rect x="390" y="580" width="210" height="48" rx="8" fill="#e0f5f5" stroke="#3a9e9e" stroke-width="2.5"/>
+  <text x="495" y="602" text-anchor="middle" class="title" fill="#1a6e6e">Node Team</text>
+  <text x="495" y="618" text-anchor="middle" class="addr">0x68A6...7927</text>
+</svg>
